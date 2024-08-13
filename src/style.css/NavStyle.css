@@ -29,7 +29,6 @@
     /* display: grid; */ 
     /* grid-template-columns: 100%; */
     align-items: center;
-    background-color: yellow;
 }
 
 #nav .-search-input {
