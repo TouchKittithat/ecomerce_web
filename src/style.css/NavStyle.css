@@ -4,7 +4,6 @@
     justify-content: center;
     background-color: #f7432e;
     background-image: linear-gradient(#f7432e,#fe6132);
-    
 }
 
 #nav .-brand {
@@ -56,5 +55,5 @@
 }
 
 #nav .-logo-cart {
-    margin-right: 50px;
+    margin-left: 20px;
 }

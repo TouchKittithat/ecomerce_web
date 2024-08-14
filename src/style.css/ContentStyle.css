@@ -18,3 +18,42 @@
 #content .-thumb1 {
     grid-row: 1 / span 2;
 }
+
+#content .type {
+    display: flex;
+}
+
+#content .row-type {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffff;
+    margin-top: 20px;
+    width: 1200px;
+    height: 100px;
+}
+
+#content .type-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    height: 90px;
+    padding: 7px;
+}
+
+#content .icon-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+#content .name-item{
+    font-size: 12px;
+    width: 100px;
+}
+
+#content .type-item img {
+    border-radius: 12px;
+}

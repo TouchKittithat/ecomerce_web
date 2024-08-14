@@ -22,7 +22,7 @@ function Navbar(){
         </div>
         <div className="-cart">
             <div className="-logo-cart">
-                <img src="https://via.placeholder.com/30x50" alt="" />
+                <img src="https://via.placeholder.com/50x50" alt="" />
             </div>
         </div>
     </section>
