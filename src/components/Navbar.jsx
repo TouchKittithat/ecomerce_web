@@ -1,17 +1,23 @@
 import React from 'react';
 import "../style.css/NavStyle.css"
+import logo from "../assets/logo-css.png"
 
 function Navbar(){
     return (
     <section id="nav">
         <div className="-brand">
             <div className="-logo">
-                <img src="https://via.placeholder.com/97x50" alt="" />
+                <img src={logo} alt="logo" />
+            </div>
+            <div className="-name-logo">
+                <p>Ecommerce</p>
             </div>
         </div>
+
+
         <div className="-search">
             <div className="-search-box">
-                <input type='text' className='-search-input' placeholder='ลดราคา'></input>
+                <input type='text' className='-search-input' placeholder='สินค้าลดราคา จ่ายง่าย ขนส่งไว'></input>
             </div>
         </div>
         <div className="-cart">

@@ -1,0 +1,20 @@
+#content {
+    display: grid;
+    justify-content: center;
+}
+
+#content .card {
+    display: grid;
+    grid-template-columns: 780px 400px;
+    grid-template-rows: auto;
+    column-gap: 6px;
+    row-gap: 2px;
+    margin-top: 30px;
+}
+#content .card img {
+    border-radius: 2px;
+}
+
+#content .-thumb1 {
+    grid-row: 1 / span 2;
+}
