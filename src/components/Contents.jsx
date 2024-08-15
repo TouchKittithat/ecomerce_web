@@ -89,8 +89,15 @@ function Contents(){
                 </div>   
             </div>
         </section>
-        <section id="type">
-
+        <section id="promo">
+            <div className="ban-pro">
+                <div className="pro-1">
+                    <img src="https://via.placeholder.com/1200x120" alt="banner" />
+                </div>
+            </div>
+                <div className="pro-2">
+                    <img src="https://via.placeholder.com/1200x290" alt="banner" />
+                </div>
         </section>
     </section>
     )
