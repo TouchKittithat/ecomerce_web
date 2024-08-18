@@ -13,19 +13,24 @@
 }
 
 #navbar .-brand {
-    display: grid;
-    grid-template-columns: 100px 150px;
+    display: flex;
     align-items: center;
     height: 100%;
 }
 #navbar .-logo {
-    height: 100px;
+    height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 #navbar .-name-logo {
     display: flex;
-    font-size: 26px;
+    font-size: 24px;
     color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
 }
 
 #navbar .-search {
@@ -59,10 +64,6 @@
     display: flex;
     align-items: center;
 }
-
-/* #navbar .-logo-cart {
-    margin-left: 20px;
-} */
 
 #topbar .bar {
     display: flex;

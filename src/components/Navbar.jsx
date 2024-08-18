@@ -1,6 +1,8 @@
 import React from 'react';
 import "../style.css/NavStyle.css"
 import logo from "../assets/logo-css.png"
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import LogoDevIcon from '@mui/icons-material/LogoDev';
 
 function Navbar(){
     return (
@@ -25,10 +27,14 @@ function Navbar(){
         <section id="navbar">
             <div className="-brand">
                 <div className="-logo">
-                    <img src={logo} alt="logo" />
-                </div>
-                <div className="-name-logo">
-                    <p>Ecommerce</p>
+                    <LogoDevIcon
+                    sx={{ color: '#fff' }} 
+                    fontSize='large'
+                    />
+                    {/* <img src={logo} alt="logo" /> */}
+                    <div className="-name-logo">
+                        <p>Ecommerce</p>
+                    </div>
                 </div>
             </div>
 
@@ -39,7 +45,11 @@ function Navbar(){
             </div>
             <div className="-cart">
                 <div className="-logo-cart">
-                    <img src="https://via.placeholder.com/50x50" alt="" />
+                    <ShoppingCartIcon
+                    sx={{ color: '#fff' }} 
+                    fontSize='large'
+                    />
+                    {/* <img src="https://via.placeholder.com/50x50" alt="" /> */}
                 </div>
             </div>
         </section>

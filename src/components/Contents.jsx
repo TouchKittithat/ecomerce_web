@@ -1,5 +1,11 @@
 import React from 'react';
 import "../style.css/ContentStyle.css"
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { CardActionArea } from '@mui/material';
+import product from "../assets/logo-css.png";
 
 function Contents(){
     return (
@@ -86,7 +92,7 @@ function Contents(){
                     <div className="name-item">
                         Super Market ลดสูงสุด 90%
                     </div>
-                </div>   
+                </div>
             </div>
         </section>
         <section id="promo">
@@ -98,6 +104,106 @@ function Contents(){
                 <div className="pro-2">
                     <img src="https://via.placeholder.com/1200x290" alt="banner" />
                 </div>
+                <div className="pro-3">
+                    <img src="https://via.placeholder.com/1200x190" alt="banner" />
+                </div>
+        </section>
+        <section id="product">
+            <div className="pduct">
+                <Card sx={{ maxWidth: 200 }}>
+                    <CardActionArea>
+                        <CardMedia
+                        component="img"
+                        height="200px"
+                        image="https://via.placeholder.com/200x200" /* or {product} */
+                        alt="green iguana"
+                        />
+                        <CardContent>
+                            {/* <Typography gutterBottom variant="h6" component="div">
+                                Lizard
+                            </Typography> */}
+                            <Typography variant="body2" color="text.secondary">
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                <Card sx={{ maxWidth: 200 }} >
+                    <CardActionArea>
+                        <CardMedia
+                        component="img"
+                        height="200px"
+                        image="https://via.placeholder.com/200x200"
+                        alt="green iguana"
+                        />
+                        <CardContent>
+                            <Typography variant="body2" color="text.secondary">
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                <Card sx={{ maxWidth: 200 }} >
+                    <CardActionArea>
+                        <CardMedia
+                        component="img"
+                        height="200px"
+                        image="https://via.placeholder.com/200x200"
+                        alt="green iguana"
+                        />
+                        <CardContent>
+                            <Typography variant="body2" color="text.secondary">
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                <Card sx={{ maxWidth: 200 }} >
+                    <CardActionArea>
+                        <CardMedia
+                        component="img"
+                        height="200px"
+                        image="https://via.placeholder.com/200x200"
+                        alt="green iguana"
+                        />
+                        <CardContent>
+                            <Typography variant="body2" color="text.secondary">
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                <Card sx={{ maxWidth: 200 }} >
+                    <CardActionArea>
+                        <CardMedia
+                        component="img"
+                        height="200px"
+                        image="https://via.placeholder.com/200x200"
+                        alt="green iguana"
+                        />
+                        <CardContent>
+                            <Typography variant="body2" color="text.secondary">
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                <Card sx={{ maxWidth: 200 }} >
+                    <CardActionArea>
+                        <CardMedia
+                        component="img"
+                        height="200px"
+                        image="https://via.placeholder.com/200x200"
+                        alt="green iguana"
+                        />
+                        <CardContent>
+                            <Typography variant="body2" color="text.secondary">
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+            </div>
         </section>
     </section>
     )

@@ -4,16 +4,21 @@ html {
   font-weight: 500;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Sarabun", sans-serif;
   margin: 0;
 }
 
 #main-layout {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: grid;
-  grid-template: "n" 119px "c";
+  /* grid-template-rows: min-content auto; /* ปรับความสูงของกริด */
+  grid-template: "n" 120px "c";
 }
 
 #nav {
